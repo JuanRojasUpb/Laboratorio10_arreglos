@@ -13,6 +13,7 @@ def a_power_b(a,b,resultado):
             
      for i in range(b):
         resultado = resultado*a
+     
     return resultado
 
 a = int(input("ingrese el numero base"))
@@ -20,6 +21,30 @@ b = int(input("ingrese el numero de exponente"))
     
 resultado = 1
 
+      
 print("la potencia es:" + str (a_power_b(a,b,resultado)))
 
+
+#%%
+def a_power_b(a,b,resultado):
+    for i in range(b):
+        resultado = resultado*a
+       
+    if resultado%2==0:
+            print("es par")
+    else:
+        print("es impar")
+    return resultado
+
+a = int(input("ingrese el numero base"))
+b = int(input("ingrese el numero de exponente"))
+    
+resultado = 1
+
+      
+print("la potencia es:" + str (a_power_b(a,b,resultado)))
+#%%
+
+
+        
 
